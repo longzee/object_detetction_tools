@@ -18,3 +18,10 @@ use **yolov3-caffe**, you must add the upsample-layer into the original Caffe an
 You can find the source code of the upsample-layer in the 
 [extra_caffe_layers](https://github.com/BingzheWu/object_detetction_tools/tree/master/extra_caffe_layers) dir.
 You can get more information in [add new layers](https://github.com/BVLC/caffe/wiki/Development).
+
+### requirements for darknet2caffe
+- pytorch 1.0
+- python3
+- caffe
+
+To satisfy the requirements, you can use docker
